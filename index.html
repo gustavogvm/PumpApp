@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html
+	class="st-layout ls-top-navbar ls-bottom-footer hide-sidebar sidebar-r2"
+	lang="en">
+
+
+<!-- Mirrored from themekit.aws.ipv4.ro/dist/themes/social-3/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Sep 2015 01:06:39 GMT -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>PumpAPP</title>
+
+<!-- Vendor CSS BUNDLE
+    Includes styling for all of the 3rd party libraries used with this module, such as Bootstrap, Font Awesome and others.
+    TIP: Using bundles will improve performance by reducing the number of network requests the client needs to make when loading the page. -->
+<link href="css/vendor/all.css" rel="stylesheet">
+
+
+<link href="css/app/app.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-- Wrapper required for sidebar transitions -->
+	<div class="st-container">
+
+		<!-- Fixed navbar -->
+		<div class="navbar navbar-main navbar-primary navbar-fixed-top"
+			role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed"
+						data-toggle="collapse" data-target="#main-nav">
+						<span class="sr-only">Toggle navigation</span> <span
+							class="icon-bar"></span> <span class="icon-bar"></span> <span
+							class="icon-bar"></span>
+					</button>
+					<a href="#sidebar-chat" data-toggle="sidebar-menu"
+						class="toggle pull-right visible-xs"><i class="fa fa-comments"></i></a>
+					<a class="navbar-brand" href="index.html">Pumpapp</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="main-nav">
+					<ul class="nav navbar-nav  navbar-right ">
+						<li class="dropdown"><a href="#" class="dropdown-toggle user"
+							data-toggle="dropdown"> <img
+								src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.50.50/p50x50/1619107_721171611236693_1798395118_n.jpg?oh=9ad78dab3aa9b7a85955835ce0489dd1&oe=56A87FD0&__gda__=1453627119_9cad21aa8d6b39950f66418bbda5f2c6" alt="Bigorna" class="img-circle"
+								width="40" /> Bigorna<span class="caret"></span>
+						</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="user-private-profile.html">Profile</a></li>
+								<li><a href="user-private-messages.html">Messages</a></li>
+								<li><a href="login.html">Logout</a></li>
+							</ul></li>
+
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+		</div>
+
+
+		<!-- content push wrapper -->
+		<div class="st-pusher" id="content">
+
+			<!-- sidebar effects INSIDE of st-pusher: -->
+			<!-- st-effect-3, st-effect-6, st-effect-7, st-effect-8, st-effect-14 -->
+
+			<!-- this is the wrapper for the content -->
+			<div class="st-content">
+
+				<!-- extra div for emulating position:fixed of the menu -->
+				<div class="st-content-inner">
+
+					<nav class="navbar navbar-subnav navbar-static-top"
+						role="navigation">
+						<div class="container">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed"
+									data-toggle="collapse" data-target="#subnav">
+									<span class="sr-only">Toggle navigation</span> <span
+										class="fa fa-ellipsis-h"></span>
+								</button>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="subnav">
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="index.html"><i
+											class="fa fa-fw icon-ship-wheel"></i> Início</a></li>
+									<li><a href="user-private-profile.html"><i
+											class="fa fa-fw icon-user-1"></i> Perfil</a></li>
+									<li><a href="user-private-users.html"><i
+											class="fa fa-fw fa-group"></i> Amigos</a></li>
+									<li><a href="user-private-messages.html"><i
+											class="fa fa-fw icon-comment-fill-1"></i> Mensagens</a></li>
+								</ul>
+								<ul class="nav navbar-nav hidden-xs navbar-right">
+									<li><a href="login.html">Sair <i
+											class="fa fa-fw icon-unlock-fill"></i></a></li>
+								</ul>
+							</div>
+							<!-- /.navbar-collapse -->
+
+						</div>
+					</nav>
+
+					<div class="container">
+
+						<div class="cover profile">
+							<div class="wrapper">
+								<div class="image">
+									<img
+										src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1483389_699630216724166_45511371_n.jpg?oh=b9986c0a762953e23e62111f33fe36c8&oe=565DE565&__gda__=1453308553_da3b8f8279f16cca4bf2c2300f071cee"
+										alt="people" />
+								</div>
+								<ul class="friends">
+									<li><a href="#"> <img
+											src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/v/t1.0-1/p160x160/11890936_967818673281592_6882884718721827800_n.jpg?oh=ff1f9dcb913cae30f3f7eeeb282df034&oe=5692E8FB&__gda__=1453148701_7f7b32033792e1b79de9a3fae45371b4"
+											alt="people" class="img-responsive">
+									</a></li>
+									<li><a href="#"> <img
+											src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/v/t1.0-1/c0.0.160.160/p160x160/10325297_649315501785061_466976745046549868_n.jpg?oh=9286aca65ecfa831fac425060d0cd434&oe=569349DA&__gda__=1452896109_ee9a29a15e01995f3d78eb4a6a3a8c95"
+											alt="people" class="img-responsive">
+									</a></li>
+									<li><a href="#"> <img
+											src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/p160x160/11659444_10153464196258482_6028478090005217174_n.jpg?oh=998493cfb86208633a2e1ce99375e183&oe=56A5B15D&__gda__=1449184202_5a4654e92146a3d3b9d6582090e47107"
+											alt="people" class="img-responsive">
+									</a></li>
+									<li><a href="#"> <img
+											src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/c3.49.320.320/s160x160/11988287_1191435214216706_1246313594339738769_n.jpg?oh=e4c911645d776b040e5ba891ac8625ee&oe=56A532AE&__gda__=1449403714_67a98504c426173b6ee47169c475e356"
+											alt="people" class="img-responsive">
+									</a></li>
+									<li><a href="#"> <img
+											src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p160x160/10303793_798773840196376_6973010646153474946_n.jpg?oh=736742f1993989239c7bbf62b1393a44&oe=56A41961&__gda__=1452402909_1f6cca6ddaecf96348c6f8174d4b23eb"
+											alt="people" class="img-responsive">
+									</a></li>
+									<li><a href="#"> <img
+											src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/p160x160/1601231_319504684895426_7909942648292773439_n.jpg?oh=da303174bd1b80995d0d96501b0b05f7&oe=5666EE6E&__gda__=1452540404_a434fda17c7c3be819c6e8bd7da44688"
+											alt="people" class="img-responsive">
+									</a></li>
+									<li><a href="#"> <img
+											src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/p160x160/11709519_490284641136577_446104687892632517_n.jpg?oh=908fddd25ebeb4bceb8e978411125052&oe=5669CB53&__gda__=1453710994_cc5084f3b2e4c90c18730842f5aa854e"
+											alt="people" class="img-responsive">
+									</a></li>
+									<li><a href="#"> <img
+											src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c50.50.621.621/s160x160/7611_441588582596757_1360551756_n.jpg?oh=7f0b704fa22c62310e2fe309e8672198&oe=565F88BD&__gda__=1452958508_d6e9913341071ef70ffca719c56ef4b8"
+											alt="people" class="img-responsive">
+									</a></li>
+									<li><a href="#" class="group"><i class="fa fa-group"></i></a></li>
+								</ul>
+							</div>
+							<div class="cover-info">
+								<div class="avatar">
+									<img
+										src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.160.160/p160x160/1619107_721171611236693_1798395118_n.jpg?oh=8e1bd18b15677676978f6ca5f9b405b7&oe=566080CE&__gda__=1453008923_bbd9702a96e90b6a6e156eabd1659b73"
+										alt="people" />
+								</div>
+								<div class="name">
+									<a href="#">Bigorna</a>
+								</div>
+								<ul class="cover-nav">
+
+									<li><a href="user-public-timeline.html"><i
+											class="fa fa-fw icon-ship-wheel"></i> Timeline</a></li>
+									<li><a href="user-public-profile.html"><i
+											class="fa fa-fw icon-user-1"></i> Sobre</a></li>
+									<li><a href="user-public-users.html"><i
+											class="fa fa-fw fa-users"></i> Amigos</a></li>
+
+								</ul>
+							</div>
+						</div>
+						<div class="timeline row" data-toggle="isotope">
+							<div class="col-xs-12 col-md-12 col-lg-12 item">
+								<div class="timeline-block">
+									<div class="panel panel-default share clearfix-xs">
+										<div class="panel-heading panel-heading-gray title">O
+											que há de novo?</div>
+										<div class="panel-body">
+											<textarea name="status" class="form-control share-text"
+												rows="3" placeholder="Compartilhe o que está acontecendo..."></textarea>
+										</div>
+										<div class="panel-footer share-buttons">
+											<a href="#"><i class="fa fa-map-marker"></i></a> <a href="#"><i
+												class="fa fa-photo"></i></a> <a href="#"><i
+												class="fa fa-video-camera"></i></a>
+											<button type="submit"
+												class="btn btn-primary btn-xs pull-right display-none"
+												href="#">Post</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-12 col-md-6 col-lg-4 item">
+								<div class="timeline-block">
+									<div class="panel panel-default">
+
+										<div class="panel-heading">
+											<div class="media">
+												<div class="media-left">
+													<a href="#"> <img
+														src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p50x50/10303793_798773840196376_6973010646153474946_n.jpg?oh=8237ae6b6dacace0410c25efc0a668b9&oe=56AA7DF0&__gda__=1449018439_ddc53ad94a3242e5f1c8bbb7c1369df7"
+														class="media-object">
+													</a>
+												</div>
+												<div class="media-body">
+													<a href="#" class="pull-right text-muted"><i
+														class="icon-reply-all-fill fa fa-2x "></i></a> <a href="#">Gabriel
+														Pentagrama</a> <span>em 21 de Setembro, 2015</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel-body">
+											<p>PUUUUUUUUUUUTA QUE PARIU!!!! CES VIRAM QUE O SYSTEM GUNZ TÁ VOLTANDO?? QUE CARALHO, EU VOU MORRER DE TESÃO!!! #VOLTALOGO #SYSTEMGUNZ #EUAMO #ALFREDAOLINDO</p>
+										</div>
+										<div class="view-all-comments">
+											<a href="#"> <i class="fa fa-comments-o"></i> Ver todos
+											</a> <span>4 comentários</span>
+
+										</div>
+										<ul class="comments">
+											<li class="media">
+												<div class="media-left">
+													<a href="#"> <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.50.50/p50x50/1619107_721171611236693_1798395118_n.jpg?oh=9ad78dab3aa9b7a85955835ce0489dd1&oe=56A87FD0&__gda__=1453627119_9cad21aa8d6b39950f66418bbda5f2c6"
+														class="media-object">
+													</a>
+												</div>
+												<div class="media-body">
+													<div class="pull-right dropdown" data-show-hover="li"
+														style="display: none;">
+														<a href="#" data-toggle="dropdown" class="toggle-button">
+															<i class="fa fa-pencil"></i>
+														</a>
+														<ul class="dropdown-menu" role="menu">
+															<li><a href="#">Editar</a></li>
+															<li><a href="#">Apagar</a></li>
+														</ul>
+													</div>
+													<a href="#" class="comment-author pull-left">Bigorna</a> <span>Alfredao arrumou patrocinador com o churrasqueijos</span>
+													<div class="comment-date">21 de setembro</div>
+												</div>
+											</li>
+											<li class="media">
+												<div class="media-left">
+													<a href="#"> <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/p50x50/11659444_10153464196258482_6028478090005217174_n.jpg?oh=d67e1b1600a36ff174265639f910d5f8&oe=5665302E&__gda__=1453570629_925676ac10c067315a92d43dee3c3f1a"
+														class="media-object">
+													</a>
+												</div>
+												<div class="media-body">
+													<div class="pull-right dropdown" data-show-hover="li"
+														style="display: none;">
+														<a href="#" data-toggle="dropdown" class="toggle-button">
+															<i class="fa fa-pencil"></i>
+														</a>
+														<ul class="dropdown-menu" role="menu">
+															<li><a href="#">Editar</a></li>
+															<li><a href="#">Apagar</a></li>
+														</ul>
+													</div>
+													<a href="#" class="comment-author pull-left">Cereal</a> <span>Ma hoe em ritmo de festa! Barbaridade tchê</span>
+													<div class="comment-date">21 de setembro</div>
+												</div>
+											</li>
+											<li class="media">
+												<div class="media-left">
+													<a href="#"> <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/v/t1.0-1/p50x50/11890936_967818673281592_6882884718721827800_n.jpg?oh=1833f3bce82e229f197bfb9eefdc6086&oe=56A9B86A&__gda__=1454011073_33cf0faf277f96050f9e3131ff783f2b"
+														class="media-object">
+													</a>
+												</div>
+												<div class="media-body">
+													<div class="pull-right dropdown" data-show-hover="li"
+														style="display: none;">
+														<a href="#" data-toggle="dropdown" class="toggle-button">
+															<i class="fa fa-pencil"></i>
+														</a>
+														<ul class="dropdown-menu" role="menu">
+															<li><a href="#">Editar</a></li>
+															<li><a href="#">Apagar</a></li>
+														</ul>
+													</div>
+													<a href="#" class="comment-author pull-left">Stuart</a> <span>Eu vou ser o organizador administrador supremo rei que deixa o server foda do caralho por que eu odeio crianças e sou emo</span>
+													<div class="comment-date">21 de setembro</div>
+												</div>
+											</li>
+											<li class="media">
+												<div class="media-left">
+													<a href="#"> <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/p50x50/1601231_319504684895426_7909942648292773439_n.jpg?oh=edc8d50266aceea3c64c585f7f48f8c2&oe=569B08D6&__gda__=1452515267_ff0026eec90ae3d5abbc83ab51549dba"
+														class="media-object">
+													</a>
+												</div>
+												<div class="media-body">
+													<div class="pull-right dropdown" data-show-hover="li"
+														style="display: none;">
+														<a href="#" data-toggle="dropdown" class="toggle-button">
+															<i class="fa fa-pencil"></i>
+														</a>
+														<ul class="dropdown-menu" role="menu">
+															<li><a href="#">Editar</a></li>
+															<li><a href="#">Apagar</a></li>
+														</ul>
+													</div>
+													<a href="#" class="comment-author pull-left">Tirrom</a> <span>boa, quero dinheiro</span>
+													<div class="comment-date">21 de setembro</div>
+												</div>
+											</li>
+											<li class="comment-form">
+												<div class="input-group">
+
+													<span class="input-group-btn"> <a href="#"
+														class="btn btn-default"><i class="fa fa-photo"></i></a>
+													</span> <input type="text" class="form-control">
+
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xs-12 col-md-6 col-lg-4 item">
+								<div class="timeline-block">
+									<div class="panel panel-default">
+
+										<div class="panel-heading">
+											<div class="media">
+												<div class="media-left">
+													<a href="#"> <img
+														src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c50.50.621.621/s50x50/7611_441588582596757_1360551756_n.jpg?oh=2107df774e5da76a37e461448e0e173f&oe=56965E69&__gda__=1453298388_a83a346b8f8d408bad813b7a5e30ffa8"
+														class="media-object">
+													</a>
+												</div>
+												<div class="media-body">
+													<a href="#" class="pull-right text-muted"><i
+														class="icon-reply-all-fill fa fa-2x "></i></a> <a href="#">Gabriel
+														Pentagrama</a> <span>em 21 de Setembro, 2015</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel-body">
+											<p>af hue</p>
+										</div>
+										<div class="view-all-comments">
+											<a href="#"> <i class="fa fa-comments-o"></i> Ver todos
+											</a> <span>2 comentários</span>
+
+										</div>
+										<ul class="comments">
+											<li class="media">
+												<div class="media-left">
+													<a href="#"> <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/v/t1.0-1/p50x50/11890936_967818673281592_6882884718721827800_n.jpg?oh=1833f3bce82e229f197bfb9eefdc6086&oe=56A9B86A&__gda__=1454011073_33cf0faf277f96050f9e3131ff783f2b"
+														class="media-object">
+													</a>
+												</div>
+												<div class="media-body">
+													<div class="pull-right dropdown" data-show-hover="li"
+														style="display: none;">
+														<a href="#" data-toggle="dropdown" class="toggle-button">
+															<i class="fa fa-pencil"></i>
+														</a>
+														<ul class="dropdown-menu" role="menu">
+															<li><a href="#">Editar</a></li>
+															<li><a href="#">Apagar</a></li>
+														</ul>
+													</div>
+													<a href="#" class="comment-author pull-left">Stuart</a> <span>Reeeeeeeeeeeeeeeeei</span>
+													<div class="comment-date">21 de setembro</div>
+												</div>
+											</li>
+											<li class="media">
+												<div class="media-left">
+													<a href="#"> <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c50.50.621.621/s50x50/7611_441588582596757_1360551756_n.jpg?oh=2107df774e5da76a37e461448e0e173f&oe=56965E69&__gda__=1453298388_a83a346b8f8d408bad813b7a5e30ffa8"
+														class="media-object">
+													</a>
+												</div>
+												<div class="media-body">
+													<div class="pull-right dropdown" data-show-hover="li"
+														style="display: none;">
+														<a href="#" data-toggle="dropdown" class="toggle-button">
+															<i class="fa fa-pencil"></i>
+														</a>
+														<ul class="dropdown-menu" role="menu">
+															<li><a href="#">Editar</a></li>
+															<li><a href="#">Apagar</a></li>
+														</ul>
+													</div>
+													<a href="#" class="comment-author pull-left">CooLer</a> <span>af</span>
+													<div class="comment-date">21 de setembro</div>
+												</div>
+											</li>
+											<li class="comment-form">
+												<div class="input-group">
+
+													<span class="input-group-btn"> <a href="#"
+														class="btn btn-default"><i class="fa fa-photo"></i></a>
+													</span> <input type="text" class="form-control">
+
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xs-12 col-md-6 col-lg-4 item">
+								<div class="timeline-block">
+									<div class="panel panel-default">
+
+										<div class="panel-heading">
+											<div class="media">
+												<div class="media-left">
+													<a href="#"> <img
+														src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p50x50/10303793_798773840196376_6973010646153474946_n.jpg?oh=8237ae6b6dacace0410c25efc0a668b9&oe=56AA7DF0&__gda__=1449018439_ddc53ad94a3242e5f1c8bbb7c1369df7"
+														class="media-object">
+													</a>
+												</div>
+												<div class="media-body">
+													<a href="#" class="pull-right text-muted"><i
+														class="icon-reply-all-fill fa fa-2x "></i></a> <a href="#">Gabriel
+														Pentagrama</a> <span>em 21 de Setembro, 2015</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel-body">Caralho meu, olha que foda isso</div>
+										<!-- 4:3 aspect ratio -->
+										<div class="embed-responsive embed-responsive-4by3">
+											<iframe class="embed-responsive-item"
+												src="http://player.vimeo.com/video/50522981?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"></iframe>
+										</div>
+
+										<div class="view-all-comments">
+											<i class="fa fa-comments-o"></i> Seja o primeiro a comentar
+										</div>
+										<ul class="comments">
+											<li class="comment-form">
+												<div class="input-group">
+
+													<input type="text" class="form-control" /> <span
+														class="input-group-btn"> <a href="#"
+														class="btn btn-default"><i class="fa fa-photo"></i></a>
+													</span>
+
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							
+
+
+						</div>
+
+					</div>
+
+				</div>
+				<!-- /st-content-inner -->
+
+			</div>
+			<!-- /st-content -->
+
+		</div>
+		<!-- /st-pusher -->
+
+		<!-- Footer -->
+		<footer class="footer">
+			<strong>PumpApp</strong> v1.0.0 &copy; Copyright 2015
+		</footer>
+		<!-- // Footer -->
+
+	</div>
+	<!-- /st-container -->
+
+
+
+	<script src="js/vendor/all.js"></script>
+
+
+	<script src="js/app/app.js"></script>
+
+
+</body>
+
+
+<!-- Mirrored from themekit.aws.ipv4.ro/dist/themes/social-3/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Sep 2015 01:07:19 GMT -->
+</html>
